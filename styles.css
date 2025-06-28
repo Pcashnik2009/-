@@ -1,0 +1,46 @@
+h1 {
+    color:blue;
+    width: 80%;
+    text-align: center;
+}
+h2 {
+   color:darkorange;
+   width: 50%;
+   text-align:center;
+}
+
+img{
+    width: 95%;
+}
+@keyframes scroll {
+    100% { background-position: 0px -3000px; }
+}
+
+body {
+    background-image: url('https://img.freepik.com/premium-vector/grunge-texture-background-realistic-style_98292-45582.jpg?semt=ais_hybrid&w=740');
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+@keyframes scroll {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -1000px 0;
+    }
+}
+p {
+ color:darkgreen
+}
+
+body {font: 14px Arial, sans-serif;padding: 20px;color: #333;}
+
+input, textarea {display: block;margin-bottom: 10px;padding: 5px;}
+
+ul {list-style: none;padding: 0;}
+
+ul li {border-bottom: 1px solid #ccc;padding: 10px;}
+
+ul li strong {color: #007bff;}
+
